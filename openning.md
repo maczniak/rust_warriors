@@ -31,7 +31,7 @@ Hoare)가 2006년 개인 프로젝트로 시작했고, 2009년 모질라의 공�
 [앱토스](https://github.com/aptos-labs/aptos-core)와
 [수이](https://github.com/MystenLabs/sui) 등 다양한 블록체인 프로토콜이
 러스트로 개발되었고, 솔라나와 (코스모스 생태계의)
-[Cosmwasm](https://github.com/CosmWasm/cosmwasm) 등 스마트 컨트랙트로 러스트로
+[Cosmwasm](https://github.com/CosmWasm/cosmwasm) 등 스마트 컨트랙트를 러스트로
 개발합니다. 리브라/디엠의 스마트 컨트랙트 언어인
 [무브(Move)](https://github.com/move-language/move)도 러스트의 영향을 매우 크게
 받아서 (러스트의 쉬운 버전 느낌) 러스트를 안다면 쉽게 적응할 수 있습니다.
@@ -75,7 +75,9 @@ pointer나 Valgrind 같은 memory leak 디버거를 동원하지만 문제가 �
 가비지 컬렉터와 달리 컴파일 시점에 (compile-time) 결정됩니다. 요즘 흔해진
 동시성 프로그래밍을 할 때도 러스트는 좋습니다. 여러 쓰레드가 동일한 메모리를
 아무렇게나 사용하면 컴파일 자체가 안됩니다. 일단 컴파일되면 race condition 등
-발견하기 힘든 동시성 버그가 없다고 안심할 수 있습니다.
+발견하기 힘든 동시성 버그가 없다고 안심할 수 있습니다. 효율적이고 실행파일에
+가비지 컬렉터가 들어갈 필요가 없다는 점은 C에 이어 리눅스 커널을 작성할 때
+사용할 수 있는 두번째 공식 언어가 되는데 도움이 되었습니다.
 
 ## 자료형에 엄격
 

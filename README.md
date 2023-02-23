@@ -10,11 +10,12 @@
 * 교재: [공식 문서](https://doc.rust-lang.org/book/)
   ([종이책](https://www.amazon.com/-/en/dp/1718503105/))의
   [한글 번역](https://rust-kr.github.io/doc.rust-kr.org/)
+* 놀이터: [Rust Playground](https://play.rust-lang.org/)
 * 2월 마지막 주부터 매주 1~2장, 사이사이에 간단한 프로그램 만들기
 
 ## 목차
 
 * [시작](openning.md)
 * 1\. 시작해봅시다
-* 2\. 추리 게임
+* 2\. 추리 게임 (2월 27일 시작하는 주)
 
